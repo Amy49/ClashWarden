@@ -81,7 +81,7 @@ VOID CPage_Subscribe::getSubsSection(const CString ini_section)
 		UrlNames.Add(L"anaer");
 		UrlNames.Add(L"oslook");
 		UrlNames.Add(L"free9999");
-		UrlKey.Add(L"https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml");
+		UrlKey.Add(L"https://api.nxtlnodes.com/Subscription/Clash?sid=21857&token=lkyjfodDsvQ");
 		UrlKey.Add(L"https://raw.githubusercontent.com/oslook/clash-freenode/main/clash.yaml");
 		UrlKey.Add(L"https://gitlab.com/free9999/ipupdate/-/raw/master/clash/config.yaml --no-check-certificate");
 		m_Subs.InsertItem(0, UrlNames[0]);
